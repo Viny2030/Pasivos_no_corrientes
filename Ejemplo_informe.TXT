@@ -1,0 +1,263 @@
+═══════════════════════════════════════════════════════════════════════
+EJEMPLO DE ESTRUCTURA DEL INFORME GENERADO
+═══════════════════════════════════════════════════════════════════════
+
+Este archivo muestra la estructura del informe Word que se genera automáticamente.
+El documento real tendrá formato profesional con estilos, tablas y gráficos.
+
+═══════════════════════════════════════════════════════════════════════
+PORTADA
+═══════════════════════════════════════════════════════════════════════
+
+                INFORME DE AUDITORÍA DE SISTEMAS Y ALGORITMOS
+
+                    ANÁLISIS DE PASIVO NO CORRIENTE
+
+              Evaluación de Salida Algorítmica y Detección de Anomalías
+
+                          Fecha: 3 de febrero de 2026
+
+                   Responsable: Sistema de Auditoría Algorítmica
+
+                               Versión: 1.0
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 2]
+
+1. RESUMEN EJECUTIVO
+
+El presente informe técnico evalúa los algoritmos desplegados en la plataforma
+de análisis, diseñados para el procesamiento y auditoría del Pasivo No Corriente.
+El sistema analiza estructuras de datos contables para identificar inconsistencias
+que podrían indicar errores materiales o irregularidades.
+
+Alcance: Revisión de la lógica de procesamiento, detección de anomalías mediante
+Isolation Forest, y cumplimiento normativo (FACPCE/ISA).
+
+Conclusión: El sistema es Apto para soporte de decisiones de auditoría, con una
+capacidad de detección preventiva superior al 86.0% en escenarios de prueba.
+
+Métricas Clave del Análisis
+
+┌────────────────────────────────────┬────────────────────────────┐
+│ Métrica                            │ Valor                      │
+├────────────────────────────────────┼────────────────────────────┤
+│ Total Pasivo No Corriente          │ $ 151.300.250,75           │
+├────────────────────────────────────┼────────────────────────────┤
+│ Total de Registros Analizados      │ 60                         │
+├────────────────────────────────────┼────────────────────────────┤
+│ Anomalías Detectadas               │ 7                          │
+└────────────────────────────────────┴────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 3]
+
+2. ANÁLISIS BAJO NORMAS NACIONALES (ARGENTINA)
+
+2.1. RT 37 y RT 41 (FACPCE)
+
+El algoritmo se alinea con la Resolución Técnica 37, proporcionando "elementos
+de juicio válidos y suficientes". La automatización reduce el riesgo de detección
+del auditor al aplicar procedimientos analíticos sobre el 100% del universo de
+datos, superando las limitaciones del muestreo tradicional (ISA 530). Bajo RT 41,
+el sistema fortalece el control interno al segregar la lógica de cálculo del
+operador humano.
+
+2.2. Ley 25.506 y Ley 25.326
+
+Trazabilidad: Se recomienda que los reportes de salida sean exportados con hash
+SHA-256 para garantizar la integridad documental según la Ley de Firma Digital.
+
+Protección de Datos: Dado que el algoritmo analiza datos del Pasivo No Corriente,
+la salida debe cumplir con la Ley de Protección de Datos Personales, aplicando
+técnicas de anonimización en los campos de identificación de entidades.
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 4]
+
+3. ANÁLISIS BAJO NORMAS INTERNACIONALES
+
+3.1. ISA 315 y 520 (Procedimientos Analíticos)
+
+El algoritmo funciona como un Procedimiento Analítico Sustantivo. Al comparar
+los datos declarados contra las variables detectadas, el sistema identifica
+"fluctuaciones o relaciones inconsistentes" que requieren investigación adicional
+por parte del auditor.
+
+3.2. Marco COSO (Control Interno)
+
+El sistema impacta directamente en el componente de Actividades de Control. La
+robustez del código en Python permite una vigilancia continua, transformando la
+auditoría de "ex-post" a una de "tiempo real" (Continuous Auditing).
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 5]
+
+4. ANÁLISIS DETALLADO: DEUDAS NO CORRIENTES
+
+4.1. Resumen General
+
+Se analizaron 30 registros de deudas a largo plazo, con un monto original de
+$ 145.750.000,50 y un saldo pendiente actual de $ 98.450.250,75.
+
+4.2. Distribución por Tipo de Deuda
+
+┌────────────────────────────────────┬──────────────────┬────────┐
+│ Tipo de Deuda                      │ Monto            │ %      │
+├────────────────────────────────────┼──────────────────┼────────┤
+│ Préstamo Bancario a Largo Plazo    │ $ 35.250.000,00  │ 35.8%  │
+├────────────────────────────────────┼──────────────────┼────────┤
+│ Bonos Emitidos                     │ $ 28.150.000,50  │ 28.6%  │
+├────────────────────────────────────┼──────────────────┼────────┤
+│ Hipoteca Inmobiliaria              │ $ 18.500.000,25  │ 18.8%  │
+├────────────────────────────────────┼──────────────────┼────────┤
+│ Arrendamiento Financiero (Leasing) │ $ 10.200.000,00  │ 10.4%  │
+├────────────────────────────────────┼──────────────────┼────────┤
+│ Obligaciones Negociables           │ $ 6.350.250,00   │ 6.4%   │
+└────────────────────────────────────┴──────────────────┴────────┘
+
+4.3. Distribución por Estado
+
+┌─────────────────┬──────────┬────────────┐
+│ Estado          │ Cantidad │ Porcentaje │
+├─────────────────┼──────────┼────────────┤
+│ Activa          │ 22       │ 73.3%      │
+├─────────────────┼──────────┼────────────┤
+│ Pagada          │ 5        │ 16.7%      │
+├─────────────────┼──────────┼────────────┤
+│ Incumplida      │ 2        │ 6.7%       │
+├─────────────────┼──────────┼────────────┤
+│ Refinanciada    │ 1        │ 3.3%       │
+└─────────────────┴──────────┴────────────┘
+
+4.4. Detección de Anomalías
+
+El algoritmo Isolation Forest detectó 3 anomalías potenciales (87% de efectividad).
+Estas deudas presentan características atípicas en cuanto a saldo pendiente, tasa
+de interés o plazo, y requieren revisión adicional.
+
+⚠️ Recomendación: Investigar las deudas marcadas como anómalas para verificar su
+legitimidad y cumplimiento contractual.
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 6]
+
+5. ANÁLISIS DETALLADO: PREVISIONES
+
+5.1. Resumen General
+
+Se analizaron 30 previsiones contables con un monto total estimado de
+$ 52.850.000,00. Estas previsiones representan obligaciones potenciales que
+deben ser reconocidas conforme a las normas contables vigentes.
+
+5.2. Distribución por Tipo de Previsión
+
+┌──────────────────────┬──────────────────┬────────┐
+│ Tipo de Previsión    │ Monto            │ %      │
+├──────────────────────┼──────────────────┼────────┤
+│ Garantías            │ $ 18.250.000,00  │ 34.5%  │
+├──────────────────────┼──────────────────┼────────┤
+│ Litigios             │ $ 15.680.000,00  │ 29.7%  │
+├──────────────────────┼──────────────────┼────────┤
+│ Cobranzas Dudosas    │ $ 10.920.000,00  │ 20.7%  │
+├──────────────────────┼──────────────────┼────────┤
+│ Reestructuración     │ $ 5.200.000,00   │ 9.8%   │
+├──────────────────────┼──────────────────┼────────┤
+│ Desmantelamiento     │ $ 2.800.000,00   │ 5.3%   │
+└──────────────────────┴──────────────────┴────────┘
+
+5.3. Distribución por Estado
+
+┌──────────────┬──────────┬────────────┐
+│ Estado       │ Cantidad │ Porcentaje │
+├──────────────┼──────────┼────────────┤
+│ Activa       │ 18       │ 60.0%      │
+├──────────────┼──────────┼────────────┤
+│ Utilizada    │ 6        │ 20.0%      │
+├──────────────┼──────────┼────────────┤
+│ Revertida    │ 4        │ 13.3%      │
+├──────────────┼──────────┼────────────┤
+│ Ajustada     │ 2        │ 6.7%       │
+└──────────────┴──────────┴────────────┘
+
+5.4. Detección de Anomalías
+
+El sistema detectó 4 previsiones con características atípicas (85% de efectividad).
+Estas anomalías pueden indicar provisiones sobrevaloradas, subvaloradas o con
+probabilidades de ocurrencia inconsistentes.
+
+⚠️ Recomendación: Revisar las estimaciones y probabilidades de las previsiones
+anómalas, considerando la evidencia disponible y la experiencia histórica.
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 7]
+
+6. MATRIZ DE RIESGOS Y RECOMENDACIONES
+
+┌────────────────────────┬──────────────────────────┬─────────────┬────────┐
+│ Riesgo Identificado    │ Impacto                  │Probabilidad │ Nivel  │
+├────────────────────────┼──────────────────────────┼─────────────┼────────┤
+│ Anomalías no           │ Potenciales errores      │ Media       │ Medio  │
+│ investigadas           │ materiales               │             │        │
+├────────────────────────┼──────────────────────────┼─────────────┼────────┤
+│ Deudas incumplidas     │ Deterioro financiero     │ Baja        │ Medio  │
+├────────────────────────┼──────────────────────────┼─────────────┼────────┤
+│ Previsiones            │ Sobrestimación           │ Media       │ Medio  │
+│ subvaloradas           │ patrimonial              │             │        │
+├────────────────────────┼──────────────────────────┼─────────────┼────────┤
+│ Falta de trazabilidad  │ Imposibilidad de validar │ Baja        │ Bajo   │
+│                        │ origen                   │             │        │
+└────────────────────────┴──────────────────────────┴─────────────┴────────┘
+
+═══════════════════════════════════════════════════════════════════════
+[PÁGINA 8]
+
+7. CONCLUSIONES Y CERTIFICACIÓN
+
+7.1. Certificación de Cumplimiento
+
+• Cumplimiento Normativo Global: 85%
+• Nivel de Auditabilidad: Excelente
+• Capacidad de Detección de Anomalías: 86.0%
+
+7.2. Recomendación Final
+
+El sistema algorítmico implementado para el análisis del Pasivo No Corriente
+demuestra una sólida capacidad para identificar anomalías y proporcionar
+elementos de juicio válidos para el proceso de auditoría. La automatización
+del análisis permite una cobertura completa del universo de datos, superando
+las limitaciones del muestreo tradicional.
+
+El algoritmo es una herramienta fundamental para la modernización de la
+profesión contable y el fortalecimiento de los controles internos,
+contribuyendo significativamente al combate contra irregularidades financieras.
+
+7.3. Acciones Recomendadas
+
+1. Investigar inmediatamente las anomalías detectadas en deudas y previsiones.
+
+2. Implementar hash SHA-256 para garantizar trazabilidad de los reportes.
+
+3. Revisar las deudas en estado de incumplimiento y evaluar su recuperabilidad.
+
+4. Validar las estimaciones de previsiones activas contra evidencia reciente.
+
+
+                        _______________________________________________
+
+                         Sistema de Auditoría Algorítmica
+
+                              3 de febrero de 2026
+
+
+═══════════════════════════════════════════════════════════════════════
+FIN DEL INFORME
+═══════════════════════════════════════════════════════════════════════
+
+NOTA: El documento Word generado incluye:
+- Formato profesional con estilos consistentes
+- Tablas con bordes y colores
+- Numeración de páginas en el pie de página
+- Espaciado apropiado entre secciones
+- Tipografía Arial en todos los textos
+- Tamaño de página US Letter con márgenes de 1 pulgada
